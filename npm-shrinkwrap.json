@@ -1431,6 +1431,11 @@
         }
       }
     },
+    "hapi-format-error": {
+      "version": "1.0.0",
+      "from": "hapi-format-error@latest",
+      "resolved": "https://registry.npmjs.org/hapi-format-error/-/hapi-format-error-1.0.0.tgz"
+    },
     "has-ansi": {
       "version": "2.0.0",
       "from": "has-ansi@>=2.0.0 <3.0.0",
@@ -1606,6 +1611,11 @@
       "from": "isarray@>=1.0.0 <1.1.0",
       "resolved": "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz"
     },
+    "isemail": {
+      "version": "2.1.2",
+      "from": "isemail@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/isemail/-/isemail-2.1.2.tgz"
+    },
     "isexe": {
       "version": "1.1.2",
       "from": "isexe@>=1.1.1 <2.0.0",
@@ -1652,6 +1662,18 @@
           "version": "0.3.0",
           "from": "mkdirp@0.3.0",
           "resolved": "https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz"
+        }
+      }
+    },
+    "joi": {
+      "version": "8.1.1",
+      "from": "joi@latest",
+      "resolved": "https://registry.npmjs.org/joi/-/joi-8.1.1.tgz",
+      "dependencies": {
+        "hoek": {
+          "version": "4.0.0",
+          "from": "hoek@>=4.0.0 <5.0.0",
+          "resolved": "https://registry.npmjs.org/hoek/-/hoek-4.0.0.tgz"
         }
       }
     },
@@ -1965,6 +1987,11 @@
           "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-1.2.0.tgz"
         }
       }
+    },
+    "moment": {
+      "version": "2.13.0",
+      "from": "moment@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/moment/-/moment-2.13.0.tgz"
     },
     "ms": {
       "version": "0.7.1",
@@ -2400,6 +2427,18 @@
       "version": "0.0.2",
       "from": "to-iso-string@0.0.2",
       "resolved": "https://registry.npmjs.org/to-iso-string/-/to-iso-string-0.0.2.tgz"
+    },
+    "topo": {
+      "version": "2.0.1",
+      "from": "topo@>=2.0.0 <3.0.0",
+      "resolved": "https://registry.npmjs.org/topo/-/topo-2.0.1.tgz",
+      "dependencies": {
+        "hoek": {
+          "version": "4.0.0",
+          "from": "hoek@4.x.x",
+          "resolved": "https://registry.npmjs.org/hoek/-/hoek-4.0.0.tgz"
+        }
+      }
     },
     "touch": {
       "version": "1.0.0",
